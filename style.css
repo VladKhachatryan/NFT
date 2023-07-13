@@ -66,6 +66,7 @@ body {
 }
 
 .btn_violet,
+.button_footer:hover,
 .btn_default:hover {
   background-color: #9192dd;
   color: #ffffff;
@@ -76,4 +77,227 @@ body {
 .btn_violet:hover {
   color: #ffffff;
   outline: 1px solid #87d0d0;
+}
+
+.text_main {
+  color: #f5f5f5;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  margin-top: 180px;
+}
+
+.main_img {
+  border-radius: 3px;
+  background: rgba(41, 35, 93, 0.57);
+  height: 70px;
+}
+
+.title_analytics {
+  color: #87d0d0;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}
+
+.text_analytics {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64.5px;
+  letter-spacing: 0.26px;
+  text-transform: capitalize;
+}
+
+.undertext_analytics {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+
+.button_analytics {
+  border-radius: 52px;
+  background: #9192dd;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  margin-top: 27px;
+  border-radius: 52px;
+  max-width: 320px;
+  padding: 20px 55px;
+}
+
+#analitycs {
+  margin-top: 196px;
+}
+
+.analitik_img {
+  margin-top: 77px;
+}
+
+.button_analytics:hover {
+  color: #ffffff;
+  outline: 1px solid #87d0d0;
+}
+
+.analytics_two {
+  margin-top: 200px;
+}
+
+#testimonials {
+  margin-top: 300px;
+}
+
+.testimonials_tittle {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}
+
+.testimonials_tittle_under {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 1.54px;
+  text-transform: uppercase;
+}
+
+.olivia,
+.andrew,
+.jane {
+  height: 272px;
+  border-radius: 31px;
+  background: #181449;
+  margin: auto;
+}
+
+.andrew {
+  margin: 20px;
+}
+
+.persons {
+  margin-top: 150px;
+}
+
+.jane_img,
+.andrew_img,
+.olivia_img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  mix-blend-mode: luminosity;
+  width: 154px;
+  height: 154px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  margin-top: -88px;
+}
+
+.jane_name,
+.andrew_name,
+.olivia_name {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}
+
+.jane_undername,
+.andrew_undername,
+.olivia_undername {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#footer_banner {
+  margin-top: 130px;
+}
+
+.footer_banner_text {
+  color: #000;
+  font-family: Outfit;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+}
+
+.footer_banner_undertext {
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 77px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 1.54px;
+  text-transform: uppercase;
+}
+
+.banner_footer {
+  border-radius: 33px;
+  background: linear-gradient(314deg, #87d0d0 0%, #4b4dca 100%);
+}
+
+.button_footer {
+  border-radius: 52px;
+  background: #181449;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90.5px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  margin-bottom: 75px;
+}
+
+/* footer */
+
+#footer {
+  margin-top: 80px;
+}
+
+.btn_submit {
+  border-radius: 52px;
+  background: #9192dd;
+  width: 100%;
 }
