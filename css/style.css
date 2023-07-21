@@ -269,12 +269,16 @@ body {
   border-radius: 202px;
   background-color: #181449;
   padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.email_form > input:focus,
 .email_form > input {
   background-color: transparent;
   border: none;
   margin-left: 10px;
+  outline: none;
 }
 
 .email_form > input:focus,

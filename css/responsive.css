@@ -1,0 +1,96 @@
+@media screen and (max-width: 992px) {
+  .navbar-toggler-icon {
+    background-image: url("../pictures/burger_icon.png");
+  }
+  .nav_link {
+    margin-left: 0;
+  }
+  .btn_submit {
+    position: relative;
+    left: -75px;
+  }
+  .footer_banner_undertext {
+    font-size: 50px;
+    line-height: 65.5px;
+  }
+  .testimonials_tittle_under {
+    font-size: 50px;
+    line-height: 70.5px;
+  }
+  .analytic_img > img {
+    max-width: 260px;
+  }
+  .undertext_analytics {
+    font-size: 16px;
+    line-height: 23.5px;
+  }
+  .title_analytics {
+    line-height: 17.5px;
+  }
+  .text_analytics {
+    font-size: 27px;
+    line-height: 43.5px;
+    margin-bottom: 1rem !important;
+  }
+  #testimonials,
+  #analitycs,
+  .featured_title,
+  #banner {
+    margin-top: 100px;
+  }
+  #komp {
+    max-width: 270px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 15px;
+    max-width: 160px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 24.5px;
+  }
+  .bannerText1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .persons_item {
+    max-width: 280px;
+  }
+
+  .persons_item_img {
+    width: 120px;
+    height: 120px;
+    margin-top: -65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #komp {
+    display: none;
+  }
+  .featured_images > img {
+    width: 20%;
+  }
+  .analytic_img {
+    margin-bottom: 20px;
+  }
+  .testimonials_tittle {
+    margin: 0;
+  }
+  .testimonials_tittle_under {
+    font-size: 38px;
+    line-height: 61.5px;
+  }
+  .footer_banner_undertext {
+    font-size: 35px;
+    line-height: 45.5px;
+  }
+  footer {
+    text-align: center;
+  }
+  .btn_submit {
+    position: unset;
+    left: unset;
+  }
+}
