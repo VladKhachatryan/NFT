@@ -7,6 +7,36 @@
 
 body {
   background-color: #01002f;
+  animation-name: body_animation;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-play-state: alternate;
+}
+
+@keyframes body_animation {
+  0% {
+    background-color: #01002f;
+  }
+
+  20% {
+    background-color: #040356;
+  }
+
+  40% {
+    background-color: #05037b;
+  }
+  60% {
+    background-color: #040260;
+  }
+
+  80% {
+    background-color: #040356;
+  }
+
+  100% {
+    background-color: #01002f;
+  }
 }
 
 .nav_link {
@@ -73,10 +103,12 @@ body {
   outline: none;
 }
 
+
 .btn_default,
 .btn_violet:hover {
   color: #ffffff;
   outline: 1px solid #87d0d0;
+  transition: 3s;
 }
 
 .featured_title {
@@ -291,4 +323,18 @@ body {
 .btn_submit {
   font-size: 13px;
   padding: 10px 30px;
+}
+
+li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #ffffff;
+  margin: auto;
+  display: block;
+}
+
+a:hover::after {
+  width: 100%;
+  transition: 0.5s linear;
 }
